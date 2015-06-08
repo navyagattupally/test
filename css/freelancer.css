@@ -1,5 +1,4 @@
 
-
 body {
     overflow-x: hidden;
 }
@@ -59,7 +58,6 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #4C4C4C;
 }
 
 hr.star-primary {
@@ -68,7 +66,6 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
 }
 
 .img-centered {
@@ -77,9 +74,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #ffffff;
-    background: #ffffff;
-    background-image: url("profile.png");
+    color: #352D2D;
+    
 }
 
 header .container {
@@ -203,6 +199,7 @@ section.success a.active {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -210,6 +207,8 @@ section.success a.active {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+        opacity: 0.7;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -224,7 +223,7 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.6;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -236,6 +235,8 @@ section.success a.active {
     text-align: center;
     font-size: 20px;
     color: #fff;
+        opacity: 0;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -294,6 +295,7 @@ section.success a.active {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+
 }
 
 .floating-label-form-group label {
